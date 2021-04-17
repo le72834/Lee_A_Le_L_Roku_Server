@@ -43,6 +43,26 @@ router.get("/movies", (req, res) => {
       });
     
 });
+router.get("/audio", (req, res) => {
+    connect.getConnection(function (err, connection) {
+        //if (err) throw err; // not connected!
+       
+        connection.query(
+
+            'SELECT m.*'+
+            'FROM tbl_music m ',
+
+            function (error, results) {
+            connection.release();
+            if (error) throw error;
+
+        
+
+            res.json(results);
+        });
+      });
+    
+});
 router.get('/movies/filter/:genre', (req, res) => {
     connect.getConnection(function (err, connection) {
 
