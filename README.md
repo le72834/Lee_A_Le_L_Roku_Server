@@ -1,5 +1,6 @@
 # ROKU flashback Project Server
-This is a Server that supports "Our Roku Project". If you do not know anything about this project click the link below to be directed to our Roku project repositories: [Roku Project](https://github.com/le72834/Lee_A_Le_L_Roku)  
+This is a Server that supports "Our Roku Project". The Project is running on locallost:5000
+If you do not know anything about this project click the link below to be directed to our Roku project repositories: [Roku Project](https://github.com/le72834/Lee_A_Le_L_Roku)  
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
